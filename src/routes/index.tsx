@@ -200,8 +200,8 @@ function Index() {
     <div className="min-h-screen bg-background text-foreground">
       <Header />
       <main>
-        <section id="inicio" className="relative min-h-[calc(100svh-1rem)] overflow-hidden bg-ink pt-18 text-surface">
-          <div className="mx-auto grid min-h-[calc(100svh-4.5rem)] max-w-7xl items-end gap-8 px-5 pb-8 pt-10 lg:grid-cols-[1.08fr_.92fr] lg:px-8 lg:pb-12 lg:pt-16">
+        <section id="inicio" className="relative min-h-[calc(100svh-1rem)] overflow-hidden bg-ink pt-18 text-surface lg:min-h-0">
+          <div className="mx-auto grid min-h-[calc(100svh-4.5rem)] max-w-7xl items-end gap-8 px-5 pb-8 pt-10 lg:min-h-[760px] lg:grid-cols-[1.08fr_.92fr] lg:px-8 lg:pb-12 lg:pt-16">
             <div className="relative z-10 pb-2 lg:pb-10">
               <p className="mb-5 flex items-center gap-3 text-xs font-semibold uppercase text-accent"><span className="h-px w-8 bg-accent" /> Nutrição feminina</p>
               <h1 className="font-display text-[clamp(4.2rem,13vw,10rem)] font-medium leading-[.78] tracking-normal">Sarah<br />Bastos</h1>
